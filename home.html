@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiropractor Wellness Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #35424a;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #35424a;
+        }
+
+        .services, .testimonials {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .services div, .testimonials div {
+            padding: 10px;
+            background-color: #e2e2e2;
+            border-radius: 5px;
+            margin: 10px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: #35424a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #35424a;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Chiropractor Wellness Center</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div>
+                <h3>Spinal Adjustments</h3>
+                <p>We provide expert spinal adjustments to help relieve pain and improve mobility.</p>
+            </div>
+            <div>
+                <h3>Massage Therapy</h3>
+                <p>Relax and rejuvenate with our professional massage therapy services.</p>
+            </div>
+            <div>
+                <h3>Physical Therapy</h3>
+                <p>Customized physical therapy sessions to aid in recovery and prevent injury.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Patients Say</h2>
+        <div class="testimonials">
+            <div>
+                <p>"The spinal adjustments have been life-changing. My back pain is gone!"</p>
+                <p><strong>- Sarah L.</strong></p>
+            </div>
+            <div>
+                <p>"The team is professional and caring. I feel at home here."</p>
+                <p><strong>- Michael P.</strong></p>
+            </div>
+            <div>
+                <p>"Excellent service! My recovery was faster than expected."</p>
+                <p><strong>- Emily R.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chiropractor Wellness Center. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
